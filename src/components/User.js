@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const User = ({ name }) => {
+export const User = ({ name, age }) => {
   return (
     <article className='User'>
-      {name}
+      {name}, age: {age}
     </article>
   )
 }

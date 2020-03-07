@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './App.scss';
+import { UsersContextProvider } from './context/UsersContext';
 import { Dashboard } from './components/Dashboard';
 
 function App() {
@@ -9,7 +10,9 @@ function App() {
       <header>
         App Header
       </header>
-      <Dashboard />
+      <UsersContextProvider>
+        <Dashboard />
+      </UsersContextProvider>
       <footer>
         App Footer
       </footer>
