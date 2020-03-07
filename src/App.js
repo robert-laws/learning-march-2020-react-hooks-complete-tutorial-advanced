@@ -1,12 +1,19 @@
 import React from 'react';
 
 import './App.scss';
+import { Dashboard } from './components/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <main className="App">
+      <header>
+        App Header
+      </header>
+      <Dashboard />
+      <footer>
+        App Footer
+      </footer>
+    </main>
   );
 }
 
