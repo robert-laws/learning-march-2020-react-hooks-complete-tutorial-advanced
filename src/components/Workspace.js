@@ -1,6 +1,7 @@
 import React from 'react'
 import { AddUser } from './AddUser'
 import { DataFetch } from './DataFetch'
+import { DataFetchWithReducer } from './DataFetchWithReducer'
 
 export const Workspace = () => {
   return (
@@ -8,6 +9,7 @@ export const Workspace = () => {
       <AddUser />
       <hr/>
       <DataFetch />
+      <DataFetchWithReducer />
     </section>
   )
 }
