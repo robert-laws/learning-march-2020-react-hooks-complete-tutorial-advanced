@@ -4,6 +4,7 @@ import { DataFetch } from './DataFetch'
 import { DataFetchWithReducer } from './DataFetchWithReducer'
 import { Counter } from './Counter'
 import { MyTimer } from './MyTimer'
+import { DocTitle } from './DocTitle'
 
 export const Workspace = () => {
   return (
@@ -16,6 +17,8 @@ export const Workspace = () => {
       <Counter />
       <hr/>
       <MyTimer />
+      <hr/>
+      <DocTitle />
     </section>
   )
 }
