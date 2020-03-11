@@ -7,6 +7,7 @@ import { MyTimer } from './MyTimer'
 import { DocTitle } from './DocTitle'
 import CounterOne from './CounterOne'
 import CounterTwo from './CounterTwo'
+import UserForm from './UserForm'
 
 export const Workspace = () => {
   return (
@@ -25,6 +26,8 @@ export const Workspace = () => {
       <CounterOne />
       <br/>
       <CounterTwo />
+      <br/>
+      <UserForm />
     </section>
   )
 }
